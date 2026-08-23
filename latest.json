@@ -1,0 +1,19 @@
+{
+  "format": "LyraStageReleaseManifest",
+  "schemaVersion": 3,
+  "version": "0.17.10",
+  "buildId": "v0.17.10-20260823-public-auto-update",
+  "publishedAt": "2026-08-23T09:16:41.464Z",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
+  "package": {
+    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.17.10/LyraStage-Update-v0.17.10.zip",
+    "sha256": "16990616d66d83dd2c610790fd11e8e0bcb7ac67cbeb2bcd8c821d1dbc22ac4d",
+    "size": 4728825,
+    "format": "zip",
+    "contentRoot": "_LyraStage-Setup",
+    "installMode": "existing-install"
+  },
+  "signatureAlgorithm": "ed25519",
+  "keyId": "ad8a2a036cc33f16",
+  "signature": "StOSXDQlFpvmXMN8QN+QthGibLhBhTDDjG3WwI6TMJURz1n1jaKwRDuvfLw9qmMFXbo78SnP5s8DC/TtMpt4Aw=="
+}

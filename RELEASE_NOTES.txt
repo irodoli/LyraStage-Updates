@@ -1,0 +1,6 @@
+LyraStage v0.17.10
+
+- Windows taskbar / shortcut identity stabilization.
+- Playback return/reload, recording-with-original, lyrics candidate, modal input, playlist layout, library sharing/import, comments timing and display reset fixes.
+- Update delivery now uses the public GitHub update-only channel. No Tailscale or GitHub token is required for installed clients.
+- The public update package is for existing installations only and does not contain the standalone first-install Setup executable.

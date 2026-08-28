@@ -1,19 +1,19 @@
 {
   "format": "LyraStageReleaseManifest",
   "schemaVersion": 3,
-  "version": "0.17.10",
-  "buildId": "v0.17.10-20260823-public-auto-update",
-  "publishedAt": "2026-08-23T09:30:07.276Z",
+  "version": "0.17.23",
+  "buildId": "v0.17.23-20260828-theme-youtube-motion",
+  "publishedAt": "2026-08-28T07:23:45.062Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "package": {
-    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.17.10/LyraStage-Update-v0.17.10.zip",
-    "sha256": "ad0cc6c85cab662adc4d683130b64250563599066aff1da731a1e24d664f3033",
-    "size": 4728912,
+    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.17.23/LyraStage-Update-v0.17.23.zip",
+    "sha256": "6c3c03d85d9e6e98f42fc116a5c9f77b1482894921e9d6e23d0a33fcf344419d",
+    "size": 256095491,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "bU26Ql9CNpARr/3NPW/b93Nvwpxh1tI7S77Z2FbE4vsAk06x8qxj8sIHLWXl2VUYgeGkLarMqxhVje7LBMflBA=="
+  "signature": "IU+RJ56lGEhz8tNlaVToJBRz/+a8LFwsKuqz6op4BWNZkyVpi2f0b1AVOvKKektu5QmFsg0fgM2TeFLBWznqBA=="
 }

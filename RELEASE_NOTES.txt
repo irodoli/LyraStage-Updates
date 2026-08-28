@@ -1,6 +1,10 @@
-LyraStage v0.17.10
+LyraStage v0.17.23
 
-- Windows taskbar / shortcut identity stabilization.
-- Playback return/reload, recording-with-original, lyrics candidate, modal input, playlist layout, library sharing/import, comments timing and display reset fixes.
-- Update delivery now uses the public GitHub update-only channel. No Tailscale or GitHub token is required for installed clients.
-- The public update package is for existing installations only and does not contain the standalone first-install Setup executable.
+v0.17.17からの主な更新:
+- Dark / Lightテーマをライブラリ、プレイヤー、ポップオーバー、設定、ダイアログ、録音・解析画面まで監査し、通常UIの配色と操作レイヤーを統一しました。
+- ライブラリのカード/リスト/プレイリストのドラッグ並び替えと、フィルター中の安全な並び替え境界を改善しました。
+- ライブラリのメニュー、検索結果表示、プロファイル周辺をLight/Dark両方で読みやすくしました。
+- YouTube再生開始の処理を可視化し、同じ動画URL解決の重複処理を抑えて再生開始経路を改善しました。
+- 自動オフラインキャッシュは再生開始のクリティカルパスへ入れず、安定再生後の低負荷キューを維持します。
+- 長い歌詞と長い間奏でもモーション歌詞が不自然にリセットされず、穏やかな待機表示から次の歌詞へ移るよう改善しました。
+- 既存の設定・ライブラリ・外観設定を保持したまま更新できます。

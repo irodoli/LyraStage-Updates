@@ -3,7 +3,7 @@
   "schemaVersion": 3,
   "version": "0.18.0",
   "buildId": "v0.18.0-20260829-theme-matrix-icon-final",
-  "publishedAt": "2026-08-29T15:13:58.097Z",
+  "publishedAt": "2026-08-29T15:51:32.760Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "updateSeverity": "recommended",
   "summary": "テーマ全体監査、録音管理、メディア情報、更新UXをまとめて改善した0.18.0です。",
@@ -12,18 +12,18 @@
     "メディア情報の自動保存にUndo/Redoと取得元への復元を追加",
     "録音テイクの保存容量確認・クリーンアップ・曲間コピーを安全化",
     "YouTube表示を16:9中央表示とぼかし背景へ改善",
-    "更新通知と自動取得/終了時適用を明示opt-in方式へ整理"
+    "v0.17.23系からの更新互換パッケージ構造を修正"
   ],
   "restartRequired": true,
   "package": {
     "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.0/LyraStage-Update-v0.18.0.zip",
-    "sha256": "5a1ffdaef422cd74387c52a34d8a6e08efecae1a20cfc3c1c2234b170e0a5033",
-    "size": 258797180,
+    "sha256": "91dd4b0968346e6522da96a36478c0a987b1da7770146f2ccb6620b444ad9ed4",
+    "size": 260889566,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "Pw3iJq2IC17x0L5LP2LNnxMyhxiQWGrkLcvWTO18ryQ4omuO9wnhM4/+FtKH2Le3NLh6IQWtpjM0s+AN3HXvBg=="
+  "signature": "pUNlAHRWeuUjziMw9ZgX9E7OrDdNYfP+Tbv2FOMV/2f2F2Gp/nZ+ovsAnkf89zRJUX9AYb7yAeEUwoQU3uv4Ag=="
 }

@@ -7,5 +7,6 @@ LyraStage v0.18.0
 - The default library profile icon now matches the official LyraStage application icon in both Light and Dark modes.
 - Update notifications use safer defaults: automatic check ON, automatic download/apply OFF unless explicitly enabled.
 - Existing settings, library data, appearance choices, and installed-edition behavior are preserved.
+- v0.17.23-series in-app updater compatibility is preserved with the legacy Full/Player launcher checks.
 
 This public release contains the existing-install update package only. The standalone first-install Setup is distributed separately.

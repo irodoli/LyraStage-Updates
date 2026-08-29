@@ -1,19 +1,29 @@
 {
   "format": "LyraStageReleaseManifest",
   "schemaVersion": 3,
-  "version": "0.17.23",
-  "buildId": "v0.17.23-20260828-theme-youtube-motion",
-  "publishedAt": "2026-08-28T07:23:45.062Z",
+  "version": "0.18.0",
+  "buildId": "v0.18.0-20260829-theme-matrix-icon-final",
+  "publishedAt": "2026-08-29T15:13:58.097Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
+  "updateSeverity": "recommended",
+  "summary": "テーマ全体監査、録音管理、メディア情報、更新UXをまとめて改善した0.18.0です。",
+  "changes": [
+    "Light/Dark × 5色のテーマを全シーンで整理し、固定色とアイコン表示を修正",
+    "メディア情報の自動保存にUndo/Redoと取得元への復元を追加",
+    "録音テイクの保存容量確認・クリーンアップ・曲間コピーを安全化",
+    "YouTube表示を16:9中央表示とぼかし背景へ改善",
+    "更新通知と自動取得/終了時適用を明示opt-in方式へ整理"
+  ],
+  "restartRequired": true,
   "package": {
-    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.17.23/LyraStage-Update-v0.17.23.zip",
-    "sha256": "6c3c03d85d9e6e98f42fc116a5c9f77b1482894921e9d6e23d0a33fcf344419d",
-    "size": 256095491,
+    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.0/LyraStage-Update-v0.18.0.zip",
+    "sha256": "5a1ffdaef422cd74387c52a34d8a6e08efecae1a20cfc3c1c2234b170e0a5033",
+    "size": 258797180,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "IU+RJ56lGEhz8tNlaVToJBRz/+a8LFwsKuqz6op4BWNZkyVpi2f0b1AVOvKKektu5QmFsg0fgM2TeFLBWznqBA=="
+  "signature": "Pw3iJq2IC17x0L5LP2LNnxMyhxiQWGrkLcvWTO18ryQ4omuO9wnhM4/+FtKH2Le3NLh6IQWtpjM0s+AN3HXvBg=="
 }

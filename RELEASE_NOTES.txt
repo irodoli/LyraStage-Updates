@@ -1,12 +1,8 @@
-LyraStage v0.18.0
+LyraStage v0.18.1
 
-- Media information now auto-saves with bounded Undo/Redo and source-reset recovery.
-- Recording storage management adds per-track usage visibility, explicit cleanup, safer take handling, and cross-track copy support.
-- YouTube playback uses a centered uncropped 16:9 stage over a blurred backdrop.
-- Light/Dark and all five color skins were audited across the full UI; remaining fixed-theme surfaces and accent leaks were corrected.
-- The default library profile icon now matches the official LyraStage application icon in both Light and Dark modes.
-- Update notifications use safer defaults: automatic check ON, automatic download/apply OFF unless explicitly enabled.
-- Existing settings, library data, appearance choices, and installed-edition behavior are preserved.
-- v0.17.23-series in-app updater compatibility is preserved with the legacy Full/Player launcher checks.
-
-This public release contains the existing-install update package only. The standalone first-install Setup is distributed separately.
+- アプリ内アップデートを同じVersionで再試行した際、前回の展開途中ファイルが残って更新準備に失敗する問題を修正しました。
+- アンインストール処理をUIスレッドから分離し、進捗表示のない「応答なし」状態と終了待ちの停滞を修正しました。
+- v0.18.1から更新配布をdelta-only方式へ移行し、GitHubには差分更新パッケージだけを公開します。最新のFull Setupは https://dl.irodoli.com/ から配布します。
+- 差分更新では更新元Version/Build・ファイルSHA-256を検証し、整合しない場合は既存インストールを変更せず最新Full Setupへ案内します。
+- 更新後の保守用Setupも同時に更新し、Windowsのアプリ一覧からのアンインストールに修正版を使用します。
+- v0.18.0で追加したテーマ、録音管理、YouTube表示、メディア情報等の機能は維持されます。

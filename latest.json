@@ -3,27 +3,27 @@
   "schemaVersion": 3,
   "version": "0.18.1",
   "buildId": "v0.18.1-20260830-delta-bridge-uninstall-fix",
-  "publishedAt": "2026-08-30T06:50:06.956Z",
+  "publishedAt": "2026-08-30T08:57:09.106Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "updateSeverity": "recommended",
-  "summary": "アップデート再試行とアンインストール応答性を改善し、v0.18.1から差分更新方式へ移行しました。",
+  "summary": "アップデート再試行とアンインストール応答性を改善し、v0.17.23/v0.18.0両対応の差分更新bridgeへ移行しました。",
   "changes": [
     "更新再試行時の展開競合を修正",
     "アンインストールの進捗表示と応答性を修正",
     "GitHub更新をdelta-only方式へ移行",
-    "更新元Version/Build/SHA検証を追加",
+    "v0.17.23/v0.18.0の両方から差分更新可能",
     "更新後の保守Setupを同時更新"
   ],
   "restartRequired": true,
   "package": {
     "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.1/LyraStage-Update-v0.18.1.zip",
-    "sha256": "f35d32679dea1b00522f51252ed57e3dae07e7fd27ab8b32f2915bc4b1e3fb99",
-    "size": 203045604,
+    "sha256": "fd3a00b10c40734d4a5fa71c910693896d4e4dbfe0a6f584f45669579b1d7bc6",
+    "size": 206077237,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "wY8bx08mGDGIPlM0DAqQjtjCFlYZMiCc0QpX1yFprgwY3456yu62UZr8yERf60KH8KbdG3iyka6ioQJd0xlZDA=="
+  "signature": "RmC1XHvlU34hVzjwsfxS8619DeEU3iFfS32zBXtES4AnKOQM2KTAF/Bop72ADJO7sicmoql05j7NU5Jb5tjBAA=="
 }

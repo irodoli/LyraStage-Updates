@@ -1,0 +1,44 @@
+{
+  "format": "LyraStageChannelFeed",
+  "schemaVersion": 1,
+  "channel": "beta",
+  "publishedAt": "2026-09-01T17:04:53.588Z",
+  "latestVersion": "0.19.0-beta.1",
+  "latestBuildId": "v0.19.0-beta.1-20260902-external-playlist-route-fix",
+  "edges": [
+    {
+      "fromVersion": "0.18.5",
+      "fromBuildId": "v0.18.5-20260901-updater-final-identity-path-fix",
+      "toVersion": "0.19.0-beta.1",
+      "toBuildId": "v0.19.0-beta.1-20260902-external-playlist-route-fix",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.1/LyraStage-Update-v0.19.0-beta.1.zip",
+        "sha256": "e91df28f4fa57caa5286a2959fc88ed3eb6309aee138606b8b9498b76e2881b9",
+        "size": 9107289,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "オフラインをライブラリ内へ統合し、Amazon Musicなど外部プレイリストの曲情報をYouTube候補へ安全に照合できるBetaです。",
+      "changes": [
+        "オフラインをライブラリのスマート分類へ統合",
+        "Amazon Music・Spotify・Apple Musicの共有URLを取り込み元として記録",
+        "曲名・アーティストからYouTube上位候補を照合し、確認後にだけ取り込み"
+      ],
+      "restartRequired": true
+    }
+  ],
+  "stableRollback": {
+    "version": "0.18.5",
+    "buildId": "v0.18.5-20260901-updater-final-identity-path-fix",
+    "setup": {
+      "url": "https://dl.irodoli.com/files/LyraStage-Setup.exe",
+      "sha256": "920c19ef0c42c6c7747b687f0a2893771c0464652df3e70a005aa8712adc6881",
+      "size": 262825779
+    }
+  },
+  "signatureAlgorithm": "ed25519",
+  "keyId": "ad8a2a036cc33f16",
+  "signature": "ynI+SnyydFmvE2GtJEePBax+cPwGHha1Rxz2sOfij437NhBL0yWcEpNgB6RTvHnKoy77YdF+L4uckiTDaSCWBQ=="
+}

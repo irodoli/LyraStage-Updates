@@ -1,0 +1,58 @@
+{
+  "format": "LyraStageChannelFeed",
+  "schemaVersion": 1,
+  "channel": "stable",
+  "publishedAt": "2026-09-01T03:54:07.223Z",
+  "latestVersion": "0.18.4",
+  "latestBuildId": "v0.18.4-20260901-beta-bootstrap-delta-v2-stage-preference-final",
+  "edges": [
+    {
+      "fromVersion": "0.18.2",
+      "fromBuildId": "v0.18.2-20260831-uninstall-completion-exit-fix",
+      "toVersion": "0.18.4",
+      "toBuildId": "v0.18.4-20260901-beta-bootstrap-delta-v2-stage-preference-final",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.18.4/LyraStage-Update-v0.18.4.zip",
+        "sha256": "6c349a8156d01d9b53027fc83295d6741db85f03e9b582e0faf285b6fe33b254",
+        "size": 9954805,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "Beta-first更新基盤、軽量delta、曲ごとの画面表示記憶を追加しました。",
+      "changes": [],
+      "restartRequired": true
+    },
+    {
+      "fromVersion": "0.18.3",
+      "fromBuildId": "v0.18.3-20260901-lyrics-candidate-dismiss-wiring-fix",
+      "toVersion": "0.18.4",
+      "toBuildId": "v0.18.4-20260901-beta-bootstrap-delta-v2-stage-preference-final",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.18.4/LyraStage-Update-v0.18.4.zip",
+        "sha256": "6c349a8156d01d9b53027fc83295d6741db85f03e9b582e0faf285b6fe33b254",
+        "size": 9954805,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "Beta-first更新基盤、軽量delta、曲ごとの画面表示記憶を追加しました。",
+      "changes": [],
+      "restartRequired": true
+    }
+  ],
+  "stableRollback": {
+    "version": "0.18.4",
+    "buildId": "v0.18.4-20260901-beta-bootstrap-delta-v2-stage-preference-final",
+    "setup": {
+      "url": "https://dl.irodoli.com/files/LyraStage-Setup.exe",
+      "sha256": "92d510eeca479968ce6b9ca7f405a6735b8008a20940e8f5d5a99901ecb2859c",
+      "size": 262818206
+    }
+  },
+  "signatureAlgorithm": "ed25519",
+  "keyId": "ad8a2a036cc33f16",
+  "signature": "lbb+9DFypg55auITqgl3Qxbr1AP0FyZ1vuMvE8s+L4eDXdNbW2TTT9jYioLl/7bWsmrEQPVX0d2jI3hQ+cJ6BQ=="
+}

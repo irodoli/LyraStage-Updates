@@ -1,23 +1,23 @@
 {
   "format": "LyraStageReleaseManifest",
   "schemaVersion": 3,
-  "version": "0.18.3",
-  "buildId": "v0.18.3-20260901-lyrics-candidate-dismiss-wiring-fix",
-  "publishedAt": "2026-09-01T00:22:20.097Z",
-  "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
+  "version": "0.18.4",
+  "buildId": "v0.18.4-20260901-beta-bootstrap-delta-v2-stage-preference-final",
+  "publishedAt": "2026-09-01T03:54:06.603Z",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/irodoli/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "updateSeverity": "recommended",
-  "summary": "歌詞候補の扱いと画面表示を改善しました。",
+  "summary": "Beta-first更新基盤、軽量delta、曲ごとの画面表示記憶を追加しました。",
   "changes": [],
   "restartRequired": true,
   "package": {
-    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.3/LyraStage-Update-v0.18.3.zip",
-    "sha256": "32a34ee54ebd5ad4c97c7d35dc877f4da1c5eab790816364720da5766de11078",
-    "size": 203210918,
+    "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.18.4/LyraStage-Update-v0.18.4.zip",
+    "sha256": "6c349a8156d01d9b53027fc83295d6741db85f03e9b582e0faf285b6fe33b254",
+    "size": 9954805,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "zdx+dcsomveIMxFvhPJEQ5f85PKyiABrZ7O4fyH1YAfw4O3oEdzH/ETl3EXU/dBn2TQ4CtQNZroodyv/IAgRDQ=="
+  "signature": "ep5MIlHVjpfuD6eRN/eeLRgFiA/t0KDOkbxltLvz13dkeHB4QcoJn7ZwelU9NuTPylvHAuCaNDwHmIwS9ypjAQ=="
 }

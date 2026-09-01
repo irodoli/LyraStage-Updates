@@ -1,0 +1,1 @@
+LyraStage updater distribution is temporarily paused due to updater lifecycle incident on v0.18.2. Do not restore manifests until v0.18.5 installed-update lifecycle gate passes.

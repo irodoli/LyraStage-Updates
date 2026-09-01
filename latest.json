@@ -1,0 +1,23 @@
+{
+  "format": "LyraStageReleaseManifest",
+  "schemaVersion": 3,
+  "version": "0.18.5",
+  "buildId": "v0.18.5-20260901-updater-final-identity-path-fix",
+  "publishedAt": "2026-09-01T15:00:47.842Z",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/irodoli/LyraStage-Updates/main/RELEASE_NOTES.txt",
+  "updateSeverity": "recommended",
+  "summary": "Updaterの適用・再起動判定を修正し、旧v0.18.2/v0.18.3からの更新失敗と再起動ループを解消しました。更新後はVersion/Build IDまで照合します。",
+  "changes": [],
+  "restartRequired": true,
+  "package": {
+    "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.18.5/LyraStage-Update-v0.18.5.zip",
+    "sha256": "8a9cdff43a8f3646635df54b4ae090c1eeb5e8c84d04dd77eb3d0018e41be2ca",
+    "size": 9971705,
+    "format": "zip",
+    "contentRoot": "_LyraStage-Setup",
+    "installMode": "existing-install"
+  },
+  "signatureAlgorithm": "ed25519",
+  "keyId": "ad8a2a036cc33f16",
+  "signature": "0gVz3GSa1YYFGFANvKsW1KZ0+mkkxqgqfl4nzXU7xHGw79O2GwtFpo5MImRJdDYoIhxiJsj2wN8gJTz755HSBA=="
+}

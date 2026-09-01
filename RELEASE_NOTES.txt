@@ -1,10 +1,10 @@
-LyraStage v0.18.4
+LyraStage v0.18.5
 
-・アプリ内でBeta更新をON/OFFできるBeta-first基盤を追加しました。
-・Stable / Betaを署名付きの別feedとして扱い、SHA-256・サイズ・信頼済みURLを検証します。
-・v0.18.2 / v0.18.3からv0.18.4へ直接到達できるmulti-base deltaへ更新しました。
-・deltaをブロック差分＋共有object化し、約203MBから約9.95MBへ95.1%削減しました。
-・更新確認の表示エラーを修正し、設定画面を開いている間は更新状況を設定画面内へ表示します。
-・曲ごとに「ジャケット / モーション歌詞 / 動画 / 背景のみ」の表示優先を記憶します。動画優先の曲は歌詞取得等で勝手に表示を切り替えません。
+・v0.18.2 / v0.18.3からのアプリ内更新が、再起動後も旧Versionのままになる問題を修正しました。
+・更新後は実インストール先のVersionとBuild IDを照合してから成功扱いにします。
+・更新失敗時の結果とUpdater traceを永続保存し、次回起動時に失敗内容を表示します。
+・エラー報告ZIP／詳細診断ZIPへUpdaterの更新結果・traceを含めるようにしました。
+・旧UpdaterがExpectedVersionを渡さない互換経路を、署名・SHA-256・size検証済みremote deltaに限定して修正しました。
+・Stable向け軽量deltaはv0.18.2 / v0.18.3 / v0.18.4からv0.18.5へ直接到達できるmulti-base方式を維持します。
 
-この0.18.4はBeta-first運用へ移行するStable bootstrap版です。以後の通常確認候補は、原則としてアプリ内Beta更新で配信します。
+v0.18.5はUpdater lifecycle修正版です。以後のUpdater変更では、実Installed旧版からアプリ内更新・終了・適用・再起動・Version/Build ID一致までをRelease gateとします。

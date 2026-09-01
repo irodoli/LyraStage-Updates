@@ -1,31 +1,29 @@
 {
   "format": "LyraStageReleaseManifest",
   "schemaVersion": 3,
-  "version": "0.18.2",
-  "buildId": "v0.18.2-20260831-uninstall-completion-exit-fix",
-  "publishedAt": "2026-08-31T06:35:24.161Z",
+  "version": "0.18.3",
+  "buildId": "v0.18.3-20260901-lyrics-candidate-dismiss-wiring-fix",
+  "publishedAt": "2026-09-01T00:02:10.221Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "updateSeverity": "recommended",
-  "summary": "プレイリスト名変更と歌詞検索・解除を追加し、アンインストールのデータ保持・完全削除を安定化しました。",
+  "summary": "歌詞候補の拒否と画面表示切替を改善しました。",
   "changes": [
-    "プレイリスト名を作成後・インポート後・使用中でも変更可能",
-    "書き出し時だけ別名を指定可能",
-    "曲の歌詞解除を追加",
-    "現在の歌詞を部分検索して前後移動",
-    "ライブラリ検索で保存済み歌詞本文も検索",
-    "アンインストールの選択肢と完了処理を修正",
-    "v0.18.1からdelta-only更新"
+    "誤った歌詞候補を今回は使わないで閉じる",
+    "音楽/動画分類と画面表示を分離",
+    "ジャケット/モーション歌詞/背景のみを自由に選択",
+    "画面表示メニュー操作中のauto-hideを改善",
+    "v0.18.2からdelta-only更新"
   ],
   "restartRequired": true,
   "package": {
-    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.2/LyraStage-Update-v0.18.2.zip",
-    "sha256": "b5baafd9a17a5f2b4621a47f354b5bcdb1721756bddc93d113c8ca5bd97caa61",
-    "size": 203543784,
+    "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.3/LyraStage-Update-v0.18.3.zip",
+    "sha256": "32a34ee54ebd5ad4c97c7d35dc877f4da1c5eab790816364720da5766de11078",
+    "size": 203210918,
     "format": "zip",
     "contentRoot": "_LyraStage-Setup",
     "installMode": "existing-install"
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "sYmnTzZgEK3Q6g9aXdsos1j1C8umgjaVC7FeRrw59bLaZY4Qi3PU1PxGitNB9ZTUEHYtKRLOJA1/gphpMyV3Cg=="
+  "signature": "DFXpP2utv8vuURFRG6bH2d8yNe5qmQOYlQfUEVqXkMs9cJo45BXbCWUzH+9TZd6bAZ+4Tbg4DNsTrf0RBRWjCQ=="
 }

@@ -3,17 +3,11 @@
   "schemaVersion": 3,
   "version": "0.18.3",
   "buildId": "v0.18.3-20260901-lyrics-candidate-dismiss-wiring-fix",
-  "publishedAt": "2026-09-01T00:02:10.221Z",
+  "publishedAt": "2026-09-01T00:22:20.097Z",
   "releaseNotesUrl": "https://raw.githubusercontent.com/rinoide/LyraStage-Updates/main/RELEASE_NOTES.txt",
   "updateSeverity": "recommended",
-  "summary": "歌詞候補の拒否と画面表示切替を改善しました。",
-  "changes": [
-    "誤った歌詞候補を今回は使わないで閉じる",
-    "音楽/動画分類と画面表示を分離",
-    "ジャケット/モーション歌詞/背景のみを自由に選択",
-    "画面表示メニュー操作中のauto-hideを改善",
-    "v0.18.2からdelta-only更新"
-  ],
+  "summary": "歌詞候補の扱いと画面表示を改善しました。",
+  "changes": [],
   "restartRequired": true,
   "package": {
     "url": "https://github.com/rinoide/LyraStage-Updates/releases/download/v0.18.3/LyraStage-Update-v0.18.3.zip",
@@ -25,5 +19,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "DFXpP2utv8vuURFRG6bH2d8yNe5qmQOYlQfUEVqXkMs9cJo45BXbCWUzH+9TZd6bAZ+4Tbg4DNsTrf0RBRWjCQ=="
+  "signature": "zdx+dcsomveIMxFvhPJEQ5f85PKyiABrZ7O4fyH1YAfw4O3oEdzH/ETl3EXU/dBn2TQ4CtQNZroodyv/IAgRDQ=="
 }

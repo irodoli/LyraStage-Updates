@@ -1,0 +1,45 @@
+{
+  "format": "LyraStageChannelFeed",
+  "schemaVersion": 1,
+  "channel": "beta",
+  "publishedAt": "2026-09-02T02:56:49.366Z",
+  "latestVersion": "0.19.0-beta.2",
+  "latestBuildId": "v0.19.0-beta.2-20260902-updater-logroot-external-playlist-fix",
+  "edges": [
+    {
+      "fromVersion": "0.18.6",
+      "fromBuildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
+      "toVersion": "0.19.0-beta.2",
+      "toBuildId": "v0.19.0-beta.2-20260902-updater-logroot-external-playlist-fix",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.2/LyraStage-Update-v0.19.0-beta.2.zip",
+        "sha256": "3ea5e4150ea9acdde8955c1a02f2ea00b5f0cf1ab6d2a0a6de13a753a90370af",
+        "size": 10545749,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "Updaterの初回Beta更新準備を修正し、オフライン統合と外部プレイリスト取込を確認できるBetaです。",
+      "changes": [
+        "初回Beta更新で更新ログ親フォルダがない場合の失敗を修正",
+        "オフラインをライブラリ内のスマート分類へ統合",
+        "Amazon Musicなど外部プレイリストの曲情報をYouTube候補へ照合",
+        "設定のDark/Light表記とアップデート項目を分かりやすく整理"
+      ],
+      "restartRequired": true
+    }
+  ],
+  "stableRollback": {
+    "version": "0.18.6",
+    "buildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
+    "setup": {
+      "url": "https://dl.irodoli.com/files/LyraStage-Setup.exe",
+      "sha256": "e505cdbc0be345a3c4f2903d7cb4d92e112676265b8fad8f1727eb7556fe7b10",
+      "size": 262826319
+    }
+  },
+  "signatureAlgorithm": "ed25519",
+  "keyId": "ad8a2a036cc33f16",
+  "signature": "lK/opREFdmxQdbkq27lDtozcJhYsO2lKs7j2T9kq8bl89VjirNpURj4t9mzzFPAfnz/I/jAfpf4e7gksyDP/Cw=="
+}

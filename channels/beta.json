@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-02T07:15:55.234Z",
-  "latestVersion": "0.19.0-beta.3",
-  "latestBuildId": "v0.19.0-beta.3-20260902-library-integration-result-order-runtime-copy",
+  "publishedAt": "2026-09-02T09:45:33.075Z",
+  "latestVersion": "0.19.0-beta.4",
+  "latestBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,24 +32,23 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.3",
-      "toBuildId": "v0.19.0-beta.3-20260902-library-integration-result-order-runtime-copy",
+      "toVersion": "0.19.0-beta.4",
+      "toBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.3/LyraStage-Update-v0.19.0-beta.3.zip",
-        "sha256": "741fd980e83e31803617ae368002f4265de5840c5e5c1483bfb8cef56c3ed8e2",
-        "size": 10566335,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.4/LyraStage-Update-v0.19.0-beta.4.zip",
+        "sha256": "d60cc0a0d655b75075a7eaf6651fbdbefac39d2c5ebce6814ec9077889b4f355",
+        "size": 10579992,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "ライブラリ内でオフライン・YouTube検索・登録済み曲を一体で扱いやすくしたBetaです。",
+      "summary": "検索結果・プレイリスト取込・YouTube再生フォールバックを改善したBetaです。",
       "changes": [
-        "オフラインを独立メニューからライブラリの表示条件へ統合",
-        "ライブラリ検索欄で曲名・アーティスト・YouTube URLをそのまま検索",
-        "登録済みライブラリとYouTube検索結果の表示順を切替可能",
-        "Stable Setupの操作名を実際のダウンロード動作に合わせて修正",
-        "Amazon Music・Spotify・Apple Music等のプレイリスト取込導線を維持・整理"
+        "登録済み/YouTube検索結果の優先表示を固定位置の明示切替へ改善",
+        "プレイリスト取込の入口とAmazon Music等の次操作を明確化",
+        "モーダルの閉じる×を中央揃えへ統一",
+        "YouTube埋め込み禁止時に直接映像/FFmpeg映像を試し、利用不可なら黒画面にせず音声＋ジャケット/歌詞へ退避"
       ],
       "restartRequired": true
     },
@@ -76,6 +75,29 @@
         "Amazon Music・Spotify・Apple Music等のプレイリスト取込導線を維持・整理"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.3",
+      "fromBuildId": "v0.19.0-beta.3-20260902-library-integration-result-order-runtime-copy",
+      "toVersion": "0.19.0-beta.4",
+      "toBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.4/LyraStage-Update-v0.19.0-beta.4.zip",
+        "sha256": "d60cc0a0d655b75075a7eaf6651fbdbefac39d2c5ebce6814ec9077889b4f355",
+        "size": 10579992,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "検索結果・プレイリスト取込・YouTube再生フォールバックを改善したBetaです。",
+      "changes": [
+        "登録済み/YouTube検索結果の優先表示を固定位置の明示切替へ改善",
+        "プレイリスト取込の入口とAmazon Music等の次操作を明確化",
+        "モーダルの閉じる×を中央揃えへ統一",
+        "YouTube埋め込み禁止時に直接映像/FFmpeg映像を試し、利用不可なら黒画面にせず音声＋ジャケット/歌詞へ退避"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -89,5 +111,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "QOHpgUeNQTJt1hiVg2IWz+Ux1iAayG4AaRr6V4V0bXaHdkGFopSC9teevtqyOX1mQQvz9MjGg76pJMb1mQVbBw=="
+  "signature": "rRJam2iS+LiN1HJzyGmGitcFhX84Rha2vYD0MHxCiksBQaZ7vTRHaTLuajiiGChZPhAiUXmUizDmJVepJ75PAw=="
 }

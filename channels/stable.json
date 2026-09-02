@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-02T02:11:27.578Z",
-  "latestVersion": "0.18.6",
-  "latestBuildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
+  "publishedAt": "2026-09-02T04:09:50.697Z",
+  "latestVersion": "0.18.7",
+  "latestBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
   "edges": [
     {
       "fromVersion": "0.18.2",
@@ -59,18 +59,40 @@
       "summary": "Updaterの適用・再起動判定を修正し、旧v0.18.2/v0.18.3からの更新失敗と再起動ループを解消しました。更新後はVersion/Build IDまで照合します。",
       "changes": [],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.18.6",
+      "fromBuildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
+      "toVersion": "0.18.7",
+      "toBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.18.7/LyraStage-Update-v0.18.7.zip",
+        "sha256": "2c228516d1d347387c0d4c694d6627c42deb7b9e582026dcd5cc056762c5de28",
+        "size": 9945140,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "Setupの内部Version不一致を修正し、既存データを保持したまま安全にアプリ本体を更新できるようにしました。",
+      "changes": [
+        "Setup内部Versionをbuild時注入へ変更し、成果物検証で不一致を防止",
+        "Full Setup更新はライブラリ・設定・録音を保持したままアプリ本体だけを安全に置換",
+        "Setup失敗画面の詳細をスクロール可能にし、文字見切れを解消"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
-    "version": "0.18.6",
-    "buildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
+    "version": "0.18.7",
+    "buildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
     "setup": {
       "url": "https://dl.irodoli.com/files/LyraStage-Setup.exe",
-      "sha256": "e505cdbc0be345a3c4f2903d7cb4d92e112676265b8fad8f1727eb7556fe7b10",
-      "size": 262826319
+      "sha256": "53f4fbda8e0681f7436c9ab21055b2e60321f787fa860b73bb57bd22f5eb613e",
+      "size": 262832340
     }
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "vdLQEGpl54v6RMkmMQMtPkya1jfk0NCyuWkeLA/0X16ZOzcv35SKcjKvKEWe7MrX+kEgVlLYaX584MjUU+T2BQ=="
+  "signature": "fo+2rJtJ9kTzhLxzFBV4yq2g/W6p8O8629n7y0WY7E8UKqXy5bPseBaLLG8QW1mltj3a1nOxKFWwOd2QUD+tBQ=="
 }

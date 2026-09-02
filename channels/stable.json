@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-01T15:00:48.474Z",
-  "latestVersion": "0.18.5",
-  "latestBuildId": "v0.18.5-20260901-updater-final-identity-path-fix",
+  "publishedAt": "2026-09-02T02:11:27.578Z",
+  "latestVersion": "0.18.6",
+  "latestBuildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
   "edges": [
     {
       "fromVersion": "0.18.2",
@@ -62,15 +62,15 @@
     }
   ],
   "stableRollback": {
-    "version": "0.18.5",
-    "buildId": "v0.18.5-20260901-updater-final-identity-path-fix",
+    "version": "0.18.6",
+    "buildId": "v0.18.6-20260902-updater-logroot-bootstrap-fix",
     "setup": {
       "url": "https://dl.irodoli.com/files/LyraStage-Setup.exe",
-      "sha256": "920c19ef0c42c6c7747b687f0a2893771c0464652df3e70a005aa8712adc6881",
-      "size": 262825779
+      "sha256": "e505cdbc0be345a3c4f2903d7cb4d92e112676265b8fad8f1727eb7556fe7b10",
+      "size": 262826319
     }
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "j5HgZWqMZhVMmKkOSBk0OlgsQQseSGxBfpIU6H46pIzFqAxIj93QBi9tNYOIy7KByiLQOlX0ZUZZh19CdyIlBg=="
+  "signature": "vdLQEGpl54v6RMkmMQMtPkya1jfk0NCyuWkeLA/0X16ZOzcv35SKcjKvKEWe7MrX+kEgVlLYaX584MjUU+T2BQ=="
 }

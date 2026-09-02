@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-02T09:45:33.075Z",
-  "latestVersion": "0.19.0-beta.4",
-  "latestBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
+  "publishedAt": "2026-09-02T16:09:04.696Z",
+  "latestVersion": "0.19.0-beta.5",
+  "latestBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,23 +32,23 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.4",
-      "toBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
+      "toVersion": "0.19.0-beta.5",
+      "toBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.4/LyraStage-Update-v0.19.0-beta.4.zip",
-        "sha256": "d60cc0a0d655b75075a7eaf6651fbdbefac39d2c5ebce6814ec9077889b4f355",
-        "size": 10579992,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.5/LyraStage-Update-v0.19.0-beta.5.zip",
+        "sha256": "541354760823c574b1442930d1244602dcc660a6ad0a9db0466f9215802b9a19",
+        "size": 10588240,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "検索結果・プレイリスト取込・YouTube再生フォールバックを改善したBetaです。",
+      "summary": "プレイリストURLを貼り付けるだけで自動確認できるBetaです。",
       "changes": [
-        "登録済み/YouTube検索結果の優先表示を固定位置の明示切替へ改善",
-        "プレイリスト取込の入口とAmazon Music等の次操作を明確化",
-        "モーダルの閉じる×を中央揃えへ統一",
-        "YouTube埋め込み禁止時に直接映像/FFmpeg映像を試し、利用不可なら黒画面にせず音声＋ジャケット/歌詞へ退避"
+        "プレイリストURL貼付を300ms後に自動検出・確認",
+        "Amazon Music公開共有URLから公開曲metadataを自動取得してYouTube候補reviewへ接続",
+        "手動の曲一覧ファイル/貼り付けは自動取得できない場合だけのfallback",
+        "元サービス音源・非公開API・アカウント情報は取得しない"
       ],
       "restartRequired": true
     },
@@ -98,6 +98,29 @@
         "YouTube埋め込み禁止時に直接映像/FFmpeg映像を試し、利用不可なら黒画面にせず音声＋ジャケット/歌詞へ退避"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.4",
+      "fromBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
+      "toVersion": "0.19.0-beta.5",
+      "toBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.5/LyraStage-Update-v0.19.0-beta.5.zip",
+        "sha256": "541354760823c574b1442930d1244602dcc660a6ad0a9db0466f9215802b9a19",
+        "size": 10588240,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "プレイリストURLを貼り付けるだけで自動確認できるBetaです。",
+      "changes": [
+        "プレイリストURL貼付を300ms後に自動検出・確認",
+        "Amazon Music公開共有URLから公開曲metadataを自動取得してYouTube候補reviewへ接続",
+        "手動の曲一覧ファイル/貼り付けは自動取得できない場合だけのfallback",
+        "元サービス音源・非公開API・アカウント情報は取得しない"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -111,5 +134,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "rRJam2iS+LiN1HJzyGmGitcFhX84Rha2vYD0MHxCiksBQaZ7vTRHaTLuajiiGChZPhAiUXmUizDmJVepJ75PAw=="
+  "signature": "DDVyKAVXdn3v7czisV8MXz8DqHZ1hlNzyAt1HIwPjhb4ifdmCQPvA/O5FNJcm8dGZGWWMd/2eNW+9vZxRvCvAA=="
 }

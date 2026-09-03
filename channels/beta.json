@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-02T16:09:04.696Z",
-  "latestVersion": "0.19.0-beta.5",
-  "latestBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
+  "publishedAt": "2026-09-03T00:14:41.951Z",
+  "latestVersion": "0.19.0-beta.6",
+  "latestBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,23 +32,23 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.5",
-      "toBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
+      "toVersion": "0.19.0-beta.6",
+      "toBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.5/LyraStage-Update-v0.19.0-beta.5.zip",
-        "sha256": "541354760823c574b1442930d1244602dcc660a6ad0a9db0466f9215802b9a19",
-        "size": 10588240,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.6/LyraStage-Update-v0.19.0-beta.6.zip",
+        "sha256": "eabfd56451b7612923b116f91abaf13fb0a922a660aaab2fce9e1a190686066f",
+        "size": 10604354,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "プレイリストURLを貼り付けるだけで自動確認できるBetaです。",
+      "summary": "更新失敗時に自動修復でき、更新画面も短くなったBetaです。",
       "changes": [
-        "プレイリストURL貼付を300ms後に自動検出・確認",
-        "Amazon Music公開共有URLから公開曲metadataを自動取得してYouTube候補reviewへ接続",
-        "手動の曲一覧ファイル/貼り付けは自動取得できない場合だけのfallback",
-        "元サービス音源・非公開API・アカウント情報は取得しない"
+        "通常は小さい差分更新を使用",
+        "irodoli配布状態で差分の基準が合わない場合は検証済みFull Setupへ自動修復",
+        "アンインストール不要で設定・ライブラリ・録音を保持",
+        "更新設定と更新確認ダイアログを短く整理"
       ],
       "restartRequired": true
     },
@@ -102,23 +102,46 @@
     {
       "fromVersion": "0.19.0-beta.4",
       "fromBuildId": "v0.19.0-beta.4-20260902-playback-import-ui-polish-r3",
-      "toVersion": "0.19.0-beta.5",
-      "toBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
+      "toVersion": "0.19.0-beta.6",
+      "toBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.5/LyraStage-Update-v0.19.0-beta.5.zip",
-        "sha256": "541354760823c574b1442930d1244602dcc660a6ad0a9db0466f9215802b9a19",
-        "size": 10588240,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.6/LyraStage-Update-v0.19.0-beta.6.zip",
+        "sha256": "eabfd56451b7612923b116f91abaf13fb0a922a660aaab2fce9e1a190686066f",
+        "size": 10604354,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "プレイリストURLを貼り付けるだけで自動確認できるBetaです。",
+      "summary": "更新失敗時に自動修復でき、更新画面も短くなったBetaです。",
       "changes": [
-        "プレイリストURL貼付を300ms後に自動検出・確認",
-        "Amazon Music公開共有URLから公開曲metadataを自動取得してYouTube候補reviewへ接続",
-        "手動の曲一覧ファイル/貼り付けは自動取得できない場合だけのfallback",
-        "元サービス音源・非公開API・アカウント情報は取得しない"
+        "通常は小さい差分更新を使用",
+        "irodoli配布状態で差分の基準が合わない場合は検証済みFull Setupへ自動修復",
+        "アンインストール不要で設定・ライブラリ・録音を保持",
+        "更新設定と更新確認ダイアログを短く整理"
+      ],
+      "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.5",
+      "fromBuildId": "v0.19.0-beta.5-20260903-playlist-url-auto-import",
+      "toVersion": "0.19.0-beta.6",
+      "toBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.6/LyraStage-Update-v0.19.0-beta.6.zip",
+        "sha256": "eabfd56451b7612923b116f91abaf13fb0a922a660aaab2fce9e1a190686066f",
+        "size": 10604354,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "更新失敗時に自動修復でき、更新画面も短くなったBetaです。",
+      "changes": [
+        "通常は小さい差分更新を使用",
+        "irodoli配布状態で差分の基準が合わない場合は検証済みFull Setupへ自動修復",
+        "アンインストール不要で設定・ライブラリ・録音を保持",
+        "更新設定と更新確認ダイアログを短く整理"
       ],
       "restartRequired": true
     }
@@ -134,5 +157,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "DDVyKAVXdn3v7czisV8MXz8DqHZ1hlNzyAt1HIwPjhb4ifdmCQPvA/O5FNJcm8dGZGWWMd/2eNW+9vZxRvCvAA=="
+  "signature": "l/pPJXax5cnXZ3ji80ZKGsZsWSELgvQGrkPhzZEq8RQW+ueKlonvDtzPdXoEpA4HRCpL26ffInhZuBA5d6bJCw=="
 }

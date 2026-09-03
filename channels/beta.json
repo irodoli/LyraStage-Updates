@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-03T00:14:41.951Z",
-  "latestVersion": "0.19.0-beta.6",
-  "latestBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
+  "publishedAt": "2026-09-03T03:31:01.158Z",
+  "latestVersion": "0.19.0-beta.7",
+  "latestBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,23 +32,24 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.6",
-      "toBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
+      "toVersion": "0.19.0-beta.7",
+      "toBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.6/LyraStage-Update-v0.19.0-beta.6.zip",
-        "sha256": "eabfd56451b7612923b116f91abaf13fb0a922a660aaab2fce9e1a190686066f",
-        "size": 10604354,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.7/LyraStage-Update-v0.19.0-beta.7.zip",
+        "sha256": "2b411d072ffa0b63d82cc913cccc3d2b2a9ebed1a1e3fddce406c1db6e85d511",
+        "size": 10602375,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "更新失敗時に自動修復でき、更新画面も短くなったBetaです。",
+      "summary": "0.19.0正式化前の最終RCです。歌詞候補、動画再確認、入力フォーカス、更新進捗表示を仕上げました。",
       "changes": [
-        "通常は小さい差分更新を使用",
-        "irodoli配布状態で差分の基準が合わない場合は検証済みFull Setupへ自動修復",
-        "アンインストール不要で設定・ライブラリ・録音を保持",
-        "更新設定と更新確認ダイアログを短く整理"
+        "高一致の時刻付き歌詞だけを安全に自動適用し、曖昧な候補は中央で確認",
+        "オフライン音源を残したまま動画を優先して再確認可能",
+        "再生準備の技術表現を簡潔な案内へ整理し履歴の削除×を中央配置",
+        "入力欄のフォーカス復帰を改善",
+        "アプリ更新中は実際の処理段階に同期したLyraStage専用進捗画面を表示"
       ],
       "restartRequired": true
     },
@@ -144,6 +145,30 @@
         "更新設定と更新確認ダイアログを短く整理"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.6",
+      "fromBuildId": "v0.19.0-beta.6-20260903-updater-self-repair-compact-ui",
+      "toVersion": "0.19.0-beta.7",
+      "toBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.7/LyraStage-Update-v0.19.0-beta.7.zip",
+        "sha256": "2b411d072ffa0b63d82cc913cccc3d2b2a9ebed1a1e3fddce406c1db6e85d511",
+        "size": 10602375,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "0.19.0正式化前の最終RCです。歌詞候補、動画再確認、入力フォーカス、更新進捗表示を仕上げました。",
+      "changes": [
+        "高一致の時刻付き歌詞だけを安全に自動適用し、曖昧な候補は中央で確認",
+        "オフライン音源を残したまま動画を優先して再確認可能",
+        "再生準備の技術表現を簡潔な案内へ整理し履歴の削除×を中央配置",
+        "入力欄のフォーカス復帰を改善",
+        "アプリ更新中は実際の処理段階に同期したLyraStage専用進捗画面を表示"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -157,5 +182,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "l/pPJXax5cnXZ3ji80ZKGsZsWSELgvQGrkPhzZEq8RQW+ueKlonvDtzPdXoEpA4HRCpL26ffInhZuBA5d6bJCw=="
+  "signature": "9yo80z1YWePIN8fQt7LxKGmvz/82WErLWBkI3cMdR+8UtKClHELx57Qx0mUecEw5H2mjQxc8rcowvCxicAY/DQ=="
 }

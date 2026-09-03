@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-03T03:31:01.158Z",
-  "latestVersion": "0.19.0-beta.7",
-  "latestBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
+  "publishedAt": "2026-09-03T05:34:31.585Z",
+  "latestVersion": "0.19.0-beta.8",
+  "latestBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,24 +32,24 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.7",
-      "toBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
+      "toVersion": "0.19.0-beta.8",
+      "toBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.7/LyraStage-Update-v0.19.0-beta.7.zip",
-        "sha256": "2b411d072ffa0b63d82cc913cccc3d2b2a9ebed1a1e3fddce406c1db6e85d511",
-        "size": 10602375,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.8/LyraStage-Update-v0.19.0-beta.8.zip",
+        "sha256": "a1074c3e047be0777c504fc090c84d866f3e352d75c7caa538e139f5ff658fdf",
+        "size": 10608780,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "0.19.0正式化前の最終RCです。歌詞候補、動画再確認、入力フォーカス、更新進捗表示を仕上げました。",
+      "summary": "プレイリスト取込を貼り付け・ドロップ中心に整理し、候補を一致度別に確認しやすくしたBetaです。",
       "changes": [
-        "高一致の時刻付き歌詞だけを安全に自動適用し、曖昧な候補は中央で確認",
-        "オフライン音源を残したまま動画を優先して再確認可能",
-        "再生準備の技術表現を簡潔な案内へ整理し履歴の削除×を中央配置",
-        "入力欄のフォーカス復帰を改善",
-        "アプリ更新中は実際の処理段階に同期したLyraStage専用進捗画面を表示"
+        "URL・曲一覧・ファイルを1か所へ入れるだけで自動判別",
+        "曲名だけの一覧やCSV・M3U等も同じ導線から取込",
+        "候補を高一致・要確認・低一致/未一致へグループ分け",
+        "未一致曲も必ず表示し再検索・曲情報修正・除外が可能",
+        "設定の長い説明を必要時だけ開く形へ整理"
       ],
       "restartRequired": true
     },
@@ -169,6 +169,30 @@
         "アプリ更新中は実際の処理段階に同期したLyraStage専用進捗画面を表示"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.7",
+      "fromBuildId": "v0.19.0-beta.7-20260903-final-rc-ux-reliability",
+      "toVersion": "0.19.0-beta.8",
+      "toBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.8/LyraStage-Update-v0.19.0-beta.8.zip",
+        "sha256": "a1074c3e047be0777c504fc090c84d866f3e352d75c7caa538e139f5ff658fdf",
+        "size": 10608780,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "プレイリスト取込を貼り付け・ドロップ中心に整理し、候補を一致度別に確認しやすくしたBetaです。",
+      "changes": [
+        "URL・曲一覧・ファイルを1か所へ入れるだけで自動判別",
+        "曲名だけの一覧やCSV・M3U等も同じ導線から取込",
+        "候補を高一致・要確認・低一致/未一致へグループ分け",
+        "未一致曲も必ず表示し再検索・曲情報修正・除外が可能",
+        "設定の長い説明を必要時だけ開く形へ整理"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -182,5 +206,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "9yo80z1YWePIN8fQt7LxKGmvz/82WErLWBkI3cMdR+8UtKClHELx57Qx0mUecEw5H2mjQxc8rcowvCxicAY/DQ=="
+  "signature": "PrSrzMIs8DQpL0o927kSz1D9Swqh8v6C10PNTYClfMyvmsPf3teQa+cU6ukqabucg3lN0Bh9aQBu9kvR2uoBBQ=="
 }

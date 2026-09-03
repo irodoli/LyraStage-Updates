@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-03T05:34:31.585Z",
-  "latestVersion": "0.19.0-beta.8",
-  "latestBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
+  "publishedAt": "2026-09-03T23:56:12.598Z",
+  "latestVersion": "0.19.0-beta.9",
+  "latestBuildId": "v0.19.0-beta.9-20260903-import-scroll-lock-updater-branding-icons",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -32,24 +32,25 @@
     {
       "fromVersion": "0.18.7",
       "fromBuildId": "v0.18.7-20260902-setup-self-repair-version-injection-fix",
-      "toVersion": "0.19.0-beta.8",
-      "toBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
+      "toVersion": "0.19.0-beta.9",
+      "toBuildId": "v0.19.0-beta.9-20260903-import-scroll-lock-updater-branding-icons",
       "package": {
-        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.8/LyraStage-Update-v0.19.0-beta.8.zip",
-        "sha256": "a1074c3e047be0777c504fc090c84d866f3e352d75c7caa538e139f5ff658fdf",
-        "size": 10608780,
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.9/LyraStage-Update-v0.19.0-beta.9.zip",
+        "sha256": "b3b0a805b293b612e896bd72ab2bc6a01be22f313a640feec1531fc57f1ca4d7",
+        "size": 10615868,
         "format": "zip",
         "contentRoot": "_LyraStage-Setup",
         "installMode": "existing-install"
       },
       "updateSeverity": "recommended",
-      "summary": "プレイリスト取込を貼り付け・ドロップ中心に整理し、候補を一致度別に確認しやすくしたBetaです。",
+      "summary": "プレイリスト取込と更新表示を仕上げ、LyraStageの新しいアイコン体系を反映したBetaです。",
       "changes": [
-        "URL・曲一覧・ファイルを1か所へ入れるだけで自動判別",
-        "曲名だけの一覧やCSV・M3U等も同じ導線から取込",
-        "候補を高一致・要確認・低一致/未一致へグループ分け",
-        "未一致曲も必ず表示し再検索・曲情報修正・除外が可能",
-        "設定の長い説明を必要時だけ開く形へ整理"
+        "プレイリスト取込画面を最後まで自然にスクロール可能に修正",
+        "URL自動検出中は入力・ドロップ・ファイル選択を一時ロックし完了後に復帰",
+        "取込時のプレイリスト名を元の名前から引き継ぎ編集可能",
+        "更新中のPowerShell/コマンド画面を表に出さずLyraStage専用進捗ウィンドウへ統一",
+        "本体アイコンをスポットライト・L音符・背景波形の新デザインへ更新",
+        "お気に入り・プレイリスト・追加・取込など主要UIアイコンを統一したオリジナル線画へ更新"
       ],
       "restartRequired": true
     },
@@ -193,6 +194,31 @@
         "設定の長い説明を必要時だけ開く形へ整理"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.8",
+      "fromBuildId": "v0.19.0-beta.8-20260903-playlist-import-simplify-review-groups",
+      "toVersion": "0.19.0-beta.9",
+      "toBuildId": "v0.19.0-beta.9-20260903-import-scroll-lock-updater-branding-icons",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.9/LyraStage-Update-v0.19.0-beta.9.zip",
+        "sha256": "b3b0a805b293b612e896bd72ab2bc6a01be22f313a640feec1531fc57f1ca4d7",
+        "size": 10615868,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "プレイリスト取込と更新表示を仕上げ、LyraStageの新しいアイコン体系を反映したBetaです。",
+      "changes": [
+        "プレイリスト取込画面を最後まで自然にスクロール可能に修正",
+        "URL自動検出中は入力・ドロップ・ファイル選択を一時ロックし完了後に復帰",
+        "取込時のプレイリスト名を元の名前から引き継ぎ編集可能",
+        "更新中のPowerShell/コマンド画面を表に出さずLyraStage専用進捗ウィンドウへ統一",
+        "本体アイコンをスポットライト・L音符・背景波形の新デザインへ更新",
+        "お気に入り・プレイリスト・追加・取込など主要UIアイコンを統一したオリジナル線画へ更新"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -206,5 +232,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "PrSrzMIs8DQpL0o927kSz1D9Swqh8v6C10PNTYClfMyvmsPf3teQa+cU6ukqabucg3lN0Bh9aQBu9kvR2uoBBQ=="
+  "signature": "VOz/xjpvi0ivQRozd70C38yyN4xj9l5q6oYiXgO4NncN0rDEK0MCIWDBNhiS4/pJyA5Y/xYXKTuCOSO5zmXjCg=="
 }

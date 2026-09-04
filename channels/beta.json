@@ -2,9 +2,9 @@
   "format": "LyraStageChannelFeed",
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-09-03T23:56:12.598Z",
-  "latestVersion": "0.19.0-beta.9",
-  "latestBuildId": "v0.19.0-beta.9-20260903-import-scroll-lock-updater-branding-icons",
+  "publishedAt": "2026-09-04T06:47:04.190Z",
+  "latestVersion": "0.19.0-beta.10",
+  "latestBuildId": "v0.19.0-beta.10-20260904-final-main-icon-adoption",
   "edges": [
     {
       "fromVersion": "0.18.6",
@@ -219,6 +219,27 @@
         "お気に入り・プレイリスト・追加・取込など主要UIアイコンを統一したオリジナル線画へ更新"
       ],
       "restartRequired": true
+    },
+    {
+      "fromVersion": "0.19.0-beta.9",
+      "fromBuildId": "v0.19.0-beta.9-20260903-import-scroll-lock-updater-branding-icons",
+      "toVersion": "0.19.0-beta.10",
+      "toBuildId": "v0.19.0-beta.10-20260904-final-main-icon-adoption",
+      "package": {
+        "url": "https://github.com/irodoli/LyraStage-Updates/releases/download/v0.19.0-beta.10/LyraStage-Update-v0.19.0-beta.10.zip",
+        "sha256": "8e605ef616c8a45a9411d8ac3c09f9d211d6463db1bcc7297580677d7b90960a",
+        "size": 13735306,
+        "format": "zip",
+        "contentRoot": "_LyraStage-Setup",
+        "installMode": "existing-install"
+      },
+      "updateSeverity": "recommended",
+      "summary": "正式採用したLyraStageメインアイコンを本体・Setup・更新UI・ショートカットへ統一した最終確認Betaです。",
+      "changes": [
+        "本体アイコンを最終採用のスポットライト・L音符・背景波形デザインへ統一",
+        "Setup/Maintenance・更新UI・Windowsショートカット/シェル表示も同じ最終アイコンへ統一"
+      ],
+      "restartRequired": true
     }
   ],
   "stableRollback": {
@@ -232,5 +253,5 @@
   },
   "signatureAlgorithm": "ed25519",
   "keyId": "ad8a2a036cc33f16",
-  "signature": "VOz/xjpvi0ivQRozd70C38yyN4xj9l5q6oYiXgO4NncN0rDEK0MCIWDBNhiS4/pJyA5Y/xYXKTuCOSO5zmXjCg=="
+  "signature": "D8XmGTRSjH42qj7hdOASCfvjGNyaBOF8SS8agwRUMqngGpdaRK+TlK0liFizjbDeDDdP6rGYN7E/Q2cyVN4gBw=="
 }
